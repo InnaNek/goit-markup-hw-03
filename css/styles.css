@@ -218,13 +218,18 @@ margin-bottom: 10px;
 .team {
     background-color: var(--light-bg-color);
 }
-
+.team-list{
+    display: flex;
+    gap: 30px;
+}
 .team-item {
     background-color: var(--primary-bg-color);
 }
-
+.team-text-wrap{
+    padding: 30px 0;
+}
 .team-subtitle {
-
+margin-bottom: 10px;
     text-align: center;
 
     font-size: 16px;
@@ -246,12 +251,20 @@ margin-bottom: 10px;
 
 .footer {
     background-color: var(--secondary-bg-color);
+    padding: 60px 0;
 }
-
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 20px;
+}
 .logo-part-footer {
     color: var(--light-text-color);
 }
-
+.address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
 .address-link {
     color: var(--grey-text-color);
 
@@ -274,11 +287,20 @@ margin-bottom: 10px;
 }
 
 /*Portfolio*/
-.portfolio-list-btn {}
+
+
+.portfolio-list-btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}
 
 .portfolio-btn {
     color: var(--primary-text-color);
-
+    padding: 6px 22px;
+    border: none;
+    border-radius: 4px;
     font-family: inherit;
     font-size: 16px;
 
@@ -295,6 +317,24 @@ margin-bottom: 10px;
     background-color: var(--accent-text-color);
     color: var(--light-text-color);
 }
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-link {
+}
+.cart-text-wrap{
+    padding: 20px 24px;
+    border: 1px solid #EEE;
+    border-top: none;
+}
+.card-title {
+}
+.card-text {
+}
+.portfolio-list-btn {}
+
 
 .card-list {}
 
